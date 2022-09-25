@@ -1,4 +1,4 @@
-This Made for my music grou
+
 <p align="center">
   <img src="assets/evamaria.jpg" alt="Eva Maria Logo">
 </p>
