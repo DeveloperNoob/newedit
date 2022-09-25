@@ -16,7 +16,7 @@ This Made for my music group
 [![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
 
 
-## Features
+## 🎉FEATURES🎉
 
 - [x] Auto Filter 🪀
 - [x] Manual Filter 🏖️
@@ -32,7 +32,8 @@ This Made for my music group
 - [x] Spelling Check Feature 💱
 - [x] File Store 💽
 - [x] 4GB Support 🔥
-## Variables
+
+## 🦸🏻VARIABLES🦸🏻
 
 Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
 
@@ -51,7 +52,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 * Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
 
 
-## Deploy
+## 🛸DEPLOY🛸
 You can deploy this bot anywhere.
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
@@ -79,7 +80,7 @@ python3 bot.py
 </details>
 
 
-## Commands
+## 😼COMMANDS😼
 ```
 • /logs - to get the rescent errors
 • /stats - to get status of files in db.
@@ -107,11 +108,13 @@ python3 bot.py
 • /batch - to create link for multiple posts
 • /link - to create link for one post
 ```
-## Support
+## 😻SUPPORT😻
+
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/EvaMariaSupport)
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeamEvamaria)
 
-## Credits 
+## 😈CREDITS😈
+
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
 
 
@@ -121,19 +124,21 @@ python3 bot.py
  - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
  - Thanks To All Everyone In This Journey
 
-### Note
+### 😌NOTE😌
 
 [Note To A So Called Dev](https://telegram.dog/subin_works/203): 
 
 Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo won't make you a Developer.
 Fork the repo and edit as per your needs.
 
-## Disclaimer
+## 🕵️DISCLAIMER🕵️
+
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
-## Inspiration
+## 👾INSPIRATION👾
+
 This is an attempt to create a clone of a BOAT made out of [banana trees 🌳](https://telegram.dog/GetTGLink/4187)
 
 [![For Vaza](https://telegra.ph/file/e743b0c8a04252774bac2.jpg)](https://telegra.ph/file/98342dc186fd7484cba91.mp4 "Oru Kootam Vazhakalk samarpikkunnu")
