@@ -31,6 +31,7 @@
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel ♎
 - [x] Spelling Check Feature 💱
 - [x] File Store 💽
+- [x] Settings 🎛️
 - [x] 4GB Support 🔥
 
 ## 🦸🏻VARIABLES🦸🏻
