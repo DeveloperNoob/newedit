@@ -22,7 +22,7 @@
 - [x] Manual Filter 🏖️
 - [x] IMDB 🎬
 - [x] Admin Commands 📊
-- [x] Broadcast 🧃
+- [x] Broadcast 📢
 - [x] Index 🔖
 - [x] IMDB search 🔎
 - [x] Inline Search 🔍
