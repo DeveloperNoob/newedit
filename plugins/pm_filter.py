@@ -104,7 +104,7 @@ async def give_filter(client,message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer(f"🎧 Hello {query.from_user.first_name}\n\nThis Is Not For You 🥲\n\n⚠️ Note: If You Want This Song\nYou Can Request Your Own.🕊️", show_alert=True)
+        return await query.answer(f"Hello {query.from_user.first_name}\n\nThis Is Not For You 🥲\n\n⚠️ Note: If You Want This File\nYou Can Request Your Own.", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -127,7 +127,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"♫ {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"⟨{get_size(file.file_size)}⟩ {file.file_name}", callback_data=f'files#{file.file_id}'
                 )
             ]
             for file in files
@@ -154,20 +154,20 @@ async def next_page(bot, query):
         off_set = offset - 6
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("❮", callback_data=f"next_{req}_{key}_{off_set}"),
+            [InlineKeyboardButton("❮ Back", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(f"ᛤ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"⨳ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("❯", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("Next ❯", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("❮", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("❮ Back", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"⨳ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("❯", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("Next ❯", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('🕊️Check PM,\n🎵I have sent Song in Pm', show_alert=True)
+                await query.answer('⚡Check PM,\nI have sent File in Pm', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -702,7 +702,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"♫ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"⟨{get_size(file.file_size)}⟩ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -728,7 +728,7 @@ async def auto_filter(client, msg, spoll=False):
         req = message.from_user.id if message.from_user else 0
         btn.append(
             [InlineKeyboardButton(text=f"⌘ 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="❯", callback_data=f"next_{req}_{key}_{offset}")]
+             InlineKeyboardButton(text="Next ❯", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
