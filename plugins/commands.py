@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/Astrong_Bots')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〄 Search', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⌘ Group', url='https://t.me/songdownload_group'),
+            InlineKeyboardButton('⌘ Group', url='https://t.me/TvSeriesLand4U'),
             InlineKeyboardButton('ᛤ Help', callback_data='help')
             ],[
             InlineKeyboardButton('༕ About', callback_data='about')
