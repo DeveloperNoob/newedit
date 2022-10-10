@@ -1,11 +1,11 @@
 class script(object):
     START_TXT = """🏖️ <i>Hello {},</i>
-💜<i>My Name is <a href=https://t.me/{}>{}</a>,</i>
-🎧 <i>I Can Provide Song's In Group🕊️Or In My Inline Search Query</i> 🎧"""
+😋<i>My Name is <a href=https://t.me/{}>{}</a>,</i>
+🎬 <i>I Can Provide Movie's In Group🕊️Or In My Inline Search Query</i> 🚀"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-♫ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
+♫ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Astrong_Bots>Astrong Bots</a>
 ♫ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ♫ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 9
 ♫ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
