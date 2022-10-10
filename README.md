@@ -18,7 +18,7 @@
 
 ## 🎉FEATURES🎉
 
-- [x] Auto Filter 🪀
+- [x] Auto Filter[On/Off] 🪀
 - [x] Manual Filter 🏖️
 - [x] IMDB 🎬
 - [x] Admin Commands 📊
